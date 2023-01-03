@@ -43,7 +43,7 @@ Learnings:
 - solved using hashmap, ternary operator, for…of loop with Object.entries()
 - sorta BF
 
-- optimised solution leverages the constraint of the problem (majority element occurs at least ceil(array.length/2) times, so DnC sort then return middle element)
+- optimised solution leverages the constraint of the problem (majority element occurs at least floor(array.length/2) times, so DnC sort then return middle element)
 
 - ideally, in such cases lib sort fn is not allowed so you need to implement your own sort (revise it)
 

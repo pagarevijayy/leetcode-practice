@@ -1,4 +1,4 @@
-Category: xxx, xxx
+Category: xxx
 
 [Prob definition](xxx)
 
