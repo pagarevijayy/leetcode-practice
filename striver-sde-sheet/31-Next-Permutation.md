@@ -6,12 +6,14 @@ Solution:
 
 ```
 
-    // approach (based on intuition/algo)
-    // if non-largeest perm:
-    // - find breaking point (smaller number at a[i] compared to a[i+1] traversed from back side)
-    // - swap breakpoint number (bp_num) with the farthest on right but greater than bp_num
-    // - reverse the right side portion of breakpoint
-    // else: reverse the array (descending --> ascending)
+    /* 
+        approach (based on intuition/algo)
+            if non-largeest perm:
+            - find breaking point (smaller number at a[i] compared to a[i+1] traversed from back side)
+            - swap breakpoint number (bp_num) with the farthest on right but greater than bp_num
+            - reverse the right side portion of breakpoint
+            else: reverse the array (descending --> ascending)
+    */
 
     let j = nums.length - 1; // last index
     let break_point;

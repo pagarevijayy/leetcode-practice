@@ -7,11 +7,13 @@ Solution:
 ```
 var setZeroes = function(matrix) {
 
-// approach
-// note occurences of i,j where 0 is present in the first go
-// to replace loop i,j
-//   where i == found_i, replace elements
-//   where i !== found_i check j == found_j replace elements
+/* 
+    approach
+     - note occurences of i,j where 0 is present in the first go 
+     - to replace elements loop i,j
+       where i == found_i, replace elements
+       where i !== found_i check j == found_j replace elements
+*/
 
 let i_array = [];
 let j_array = [];
