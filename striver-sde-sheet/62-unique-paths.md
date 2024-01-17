@@ -42,3 +42,4 @@ Learnings:
 
 - DP has subproblems in it who answers can be cached and used in final computation of result
 - Keep an eye on call by reference in js otherwise can introduce bug. (made similar mistake while creating gridMap)
+- ideal solution is math combinatorics (will learn n apply later)
