@@ -1,5 +1,7 @@
 Category: xxx
 
+Level: xxx
+
 [Prob definition](xxx)
 
 Solution:
