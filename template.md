@@ -1,6 +1,6 @@
 Category: xxx
 
-Level: xxx
+Difficulty: xxx
 
 [Prob definition](xxx)
 
